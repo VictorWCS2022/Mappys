@@ -21,6 +21,7 @@ import plotly.express as px
 import pymysql
 from sqlalchemy import create_engine
 import re
+import pyarrow as pa
 
 st.title("MappySmileBord'eau")
 st.write('What transport is available around my position?')
